@@ -36,3 +36,13 @@
     transform: rotate(360deg);
   }
 }
+
+.active {
+  font-weight: bold;
+}
+
+.movies {
+  display: inline-grid;
+  grid-template-columns: 25em;
+  grid-auto-rows: auto;
+}
